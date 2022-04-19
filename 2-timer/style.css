@@ -1,0 +1,46 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+svg {
+    background: rgb(207, 207, 207);
+    /* margin: 30px 10%; */
+}
+
+circle {
+    opacity: 0.8;
+}
+
+.chart {
+    position: relative;
+}
+
+.barTooltip {
+    width: 13rem;
+    position: absolute;
+    visibility: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 14pt;
+
+    color: rgba(255, 255, 255, 1);
+    /* background: lightsteelblue; */
+    background-color: #636f63c3;
+    /* background: rgba(86, 112, 103, 0.493); */
+    border-radius: 8px;
+    /* text-align: center;	 */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    padding: 15px;
+    top: 0px;
+    left: 0px;
+
+    opacity: 1;
+    pointer-events: none;
+}
